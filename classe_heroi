@@ -28,6 +28,8 @@ class yourHero{
             ataque = "espada"
         } else if (this.type == "monge"){
             ataque = "artes marciais"
+        }else if (this.type == "ninja"){
+            ataque = "shuriken"
         }
     	console.log(`o ${this.type} atacou usando ${ataque}`)
     }
